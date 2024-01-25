@@ -1,1 +1,24 @@
 #Game board to run in preprocessor
+
+a1="_"
+a2="_"
+a3="_"
+b1="_"
+b2="_"
+b3="_"
+c1="_"
+c2="_"
+c3="_"
+
+Column1 = [a1,b1,c1]
+Column2 = [a2,b2,c2]
+Column3 = [a3,b3,c3]
+
+class TTTBoard:
+ Row1 = [a1,b1,c1] 
+ Row2 = [a2,b2,c2]
+ Row3 = [a3,b3,c3]
+ 
+print(TTTBoard.Row1)
+print(TTTBoard.Row2)
+print(TTTBoard.Row3)
